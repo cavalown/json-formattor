@@ -1,0 +1,2 @@
+# json-formattor
+format json
