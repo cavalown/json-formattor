@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+body {
+  margin: 0 auto;
+  background-color: #c59e9e;
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  .wrap {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    .banner {
+      height: 70px;
+      width: 100%;
+      background-color: #c47d75;
+      display: flex;
+      h1 {
+        font-size: 36px;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 30px;
+        color: rgba(77, 96, 109, 0.8);
+      }
+      h2 {
+        font-size: 22px;
+        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20px;
+        padding-top: 10px;
+        color: rgba(77, 96, 109, 0.6);
+      }
+    }
+    .content {
+      max-width: calc(8vw - 200px);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 20px;
+      margin-top: 5vh;
+      .source {
+        width: calc(50vw - 20px);
+        background-color: #e1c7c5;
+        border-radius: 20px;
+        textarea {
+          width: calc(50vw - 160px);
+          height: calc(80vh - 25px);
+          background: none;
+          border: none;
+          padding-left: 20px;
+          padding-top: 10px;
+          outline: none;
+          resize: none;
+        }
+      }
+      .controller {
+        height: 80vh;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        button {
+          width: 175px;
+          height: 40px;
+          border: none;
+          border-radius: 10px;
+          margin-top: 15px;
+          background-color: #dcd2cc;
+          font-size: 18px;
+          color: #7a8b8b;
+          cursor: pointer;
+        }
+      }
+      .result {
+        width: calc(50vw - 20px);
+        background-color: #e1c7c5;
+        border-radius: 20px;
+        textarea {
+          width: calc(50vw - 160px);
+          height: calc(80vh - 25px);
+          background: none;
+          border: none;
+          padding-left: 20px;
+          padding-top: 10px;
+          outline: none;
+          resize: none;
+        }
+      }
+    }
+  }
+}
