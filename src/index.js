@@ -1,3 +1,5 @@
+const fse = require("fs-extra");
+
 const inputData = document.getElementById("input-data");
 inputData.style.color = "grey";
 
@@ -25,6 +27,10 @@ btnValidate.addEventListener("click", () => {
     outputData.style.color = "red";
   }
 });
+
+btnDownload.addEventListener("click", ()=>{
+
+})
 
 /**
 sample json:

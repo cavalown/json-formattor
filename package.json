@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cavalown/json-formattor/issues"
   },
-  "homepage": "https://github.com/cavalown/json-formattor#readme"
+  "homepage": "https://github.com/cavalown/json-formattor#readme",
+  "dependencies": {
+    "fs-extra": "^11.1.0"
+  }
 }
