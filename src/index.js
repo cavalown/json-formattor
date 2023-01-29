@@ -1,4 +1,3 @@
-const fse = require("fs-extra");
 
 const inputData = document.getElementById("input-data");
 inputData.style.color = "grey";
@@ -28,7 +27,7 @@ btnValidate.addEventListener("click", () => {
   }
 });
 
-btnDownload.addEventListener("click", ()=>{
+btnDownload.addEventListener("click", () => {
 
 })
 
